@@ -3,13 +3,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #073b4c;
+  background-color: #f4b8c0;
 }
 
 .birthdayCard {
   position: relative;
-  width: 250px;
-  height: 350px;
+  width: 400px;
+  height: 500px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -32,21 +32,22 @@ body {
 
 .cardFront {
   position: relative;
-  background-color: #fff;
-  width: 250px;
-  height: 350px;
+  background-color: #a9e9ac;
+  width: 400px;
+  height: 500px;
   overflow: hidden;
   transform-origin: left;
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+  box-shadow: inset 100px 20px 100px rgba(8, 105, 60, 0.2),
     30px 0 50px rgba(0, 0, 0, 0.4);
   transition: 0.6s;
 }
 
 .happy {
   font-family: Tahoma, sans-serif;
+  color: white;
   text-align: center;
   margin: 30px;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #327877 0%, #4cba81 100%);
   transition: 0.1s;
   backface-visibility: visible;
 }
@@ -67,25 +68,25 @@ body {
 
 .balloonOne {
   background-color: rgb(239, 71, 111, 0.7);
-  left: -10px;
+  left: 10px;
   top: 50px;
 }
 
 .balloonTwo {
   background-color: rgb(6, 214, 160, 0.7);
-  left: 50px;
+  left: 100px;
   top: 20px;
 }
 
 .balloonThree {
   background-color: rgb(255, 209, 102, 0.7);
-  left: 110px;
+  left: 200px;
   top: 50px;
 }
 
 .balloonFour {
   background-color: rgb(17, 138, 178, 0.7);
-  left: 170px;
+  left: 300px;
   top: 20px;
 }
 
@@ -132,13 +133,13 @@ body {
 
 .cardInside {
   position: absolute;
-  background-color: #fff;
-  width: 250px;
-  height: 350px;
+  background-color: #a9e9ac;
+  width: 400px;
+  height: 500px;
   z-index: -1;
   left: 0;
   top: 0;
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 100px 20px 100px rgba(8, 105, 60, 0.2);
 }
 
 p {
@@ -148,17 +149,39 @@ p {
 }
 
 .name {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: absolute;
-  left: 150px;
-  top: 200px;
-  color: #333;
+  left: 250px;
+  top: 190px;
+  color: #47be80;
+}
+
+.content{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #47be80;
 }
 
 .back {
-  font-family: Tahoma, sans-serif;
-  color: #333;
+  font-family: Dancing system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #47be80;
   text-align: center;
   margin: 30px;
-  outline-color: #333;
+  outline-color: #47be80;
   outline-style: dotted;
+}
+
+.cardInside img {
+  max-width:50%; /* Adjust the max-width and max-height as per your requirement */
+  max-height: 50%;
+  position: absolute;
+  top: 55%; /* Adjust the position as per your requirement */
+  left: 20%;
+}
+
+.cardFront img {
+  max-width: 60%; /* Adjust the max-width and max-height as per your requirement */
+  max-height: 60%;
+  position: absolute;
+  top: 55%; /* Adjust the position as per your requirement */
+  left: 20%;
 }
