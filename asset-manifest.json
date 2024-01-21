@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/bidi-7year-anni/static/css/main.fb3c5557.chunk.css",
-    "main.js": "/bidi-7year-anni/static/js/main.ecfb93e3.chunk.js",
-    "main.js.map": "/bidi-7year-anni/static/js/main.ecfb93e3.chunk.js.map",
+    "main.css": "/bidi-7year-anni/static/css/main.235f6bc0.chunk.css",
+    "main.js": "/bidi-7year-anni/static/js/main.375720b4.chunk.js",
+    "main.js.map": "/bidi-7year-anni/static/js/main.375720b4.chunk.js.map",
     "runtime-main.js": "/bidi-7year-anni/static/js/runtime-main.661b083c.js",
     "runtime-main.js.map": "/bidi-7year-anni/static/js/runtime-main.661b083c.js.map",
     "static/js/2.03c5af4c.chunk.js": "/bidi-7year-anni/static/js/2.03c5af4c.chunk.js",
     "static/js/2.03c5af4c.chunk.js.map": "/bidi-7year-anni/static/js/2.03c5af4c.chunk.js.map",
     "index.html": "/bidi-7year-anni/index.html",
-    "static/css/main.fb3c5557.chunk.css.map": "/bidi-7year-anni/static/css/main.fb3c5557.chunk.css.map",
-    "static/js/2.03c5af4c.chunk.js.LICENSE.txt": "/bidi-7year-anni/static/js/2.03c5af4c.chunk.js.LICENSE.txt"
+    "static/css/main.235f6bc0.chunk.css.map": "/bidi-7year-anni/static/css/main.235f6bc0.chunk.css.map",
+    "static/js/2.03c5af4c.chunk.js.LICENSE.txt": "/bidi-7year-anni/static/js/2.03c5af4c.chunk.js.LICENSE.txt",
+    "static/media/brown.8196ffd0.png": "/bidi-7year-anni/static/media/brown.8196ffd0.png",
+    "static/media/green.0f36197b.png": "/bidi-7year-anni/static/media/green.0f36197b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.661b083c.js",
     "static/js/2.03c5af4c.chunk.js",
-    "static/css/main.fb3c5557.chunk.css",
-    "static/js/main.ecfb93e3.chunk.js"
+    "static/css/main.235f6bc0.chunk.css",
+    "static/js/main.375720b4.chunk.js"
   ]
 }
